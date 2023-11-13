@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'widgets/filter_todo.dart';
 import 'widgets/new_todo.dart';
 import 'widgets/search_todo.dart';
 import 'widgets/todo_header.dart';
@@ -19,6 +20,8 @@ class TodosPage extends StatelessWidget {
               NewTodo(),
               SizedBox(height: 20),
               SearchTodo(),
+              SizedBox(height: 10),
+              FilterTodo(),
             ],
           ),
         ),
